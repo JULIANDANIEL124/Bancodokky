@@ -115,5 +115,15 @@ namespace dokky_2
         {
 
         }
+
+        private void LugarTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registre_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

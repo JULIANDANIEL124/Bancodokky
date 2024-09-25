@@ -208,6 +208,7 @@
             // 
             // CuentaForm
             // 
+            BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(474, 325);
             Controls.Add(Salir);
             Controls.Add(label7);

@@ -15,7 +15,7 @@ namespace dokky_2
         {
             Registre registroForm = new Registre();
             registroForm.Show();
-          
+
         }
 
         // Evento del botón "Iniciar Sesión"
@@ -25,10 +25,15 @@ namespace dokky_2
             Iniciarsesion iniciarSesionForm = new Iniciarsesion();
             iniciarSesionForm.Show();
         }
-         //Cierra el programa
+        //Cierra el programa
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close(); // Cierra el formulario de registro
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

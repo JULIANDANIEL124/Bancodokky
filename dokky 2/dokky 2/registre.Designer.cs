@@ -52,21 +52,21 @@ namespace dokky_2
             // 
             // nombreTextBox
             // 
-            nombreTextBox.Location = new Point(234, 69);
+            nombreTextBox.Location = new Point(203, 92);
             nombreTextBox.Name = "nombreTextBox";
             nombreTextBox.Size = new Size(360, 23);
             nombreTextBox.TabIndex = 0;
             // 
             // ContraseñaTextBox
             // 
-            ContraseñaTextBox.Location = new Point(234, 111);
+            ContraseñaTextBox.Location = new Point(203, 147);
             ContraseñaTextBox.Name = "ContraseñaTextBox";
             ContraseñaTextBox.Size = new Size(360, 23);
             ContraseñaTextBox.TabIndex = 1;
             // 
             // GmailTextBox
             // 
-            GmailTextBox.Location = new Point(234, 151);
+            GmailTextBox.Location = new Point(203, 201);
             GmailTextBox.Name = "GmailTextBox";
             GmailTextBox.Size = new Size(360, 23);
             GmailTextBox.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace dokky_2
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(236, 193);
+            dateTimePicker1.Location = new Point(203, 255);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(360, 23);
             dateTimePicker1.TabIndex = 3;
@@ -82,14 +82,15 @@ namespace dokky_2
             // 
             // LugarTextBox
             // 
-            LugarTextBox.Location = new Point(234, 280);
+            LugarTextBox.Location = new Point(203, 363);
             LugarTextBox.Name = "LugarTextBox";
             LugarTextBox.Size = new Size(360, 23);
             LugarTextBox.TabIndex = 4;
+            LugarTextBox.TextChanged += LugarTextBox_TextChanged;
             // 
             // EdadTextBox
             // 
-            EdadTextBox.Location = new Point(234, 238);
+            EdadTextBox.Location = new Point(203, 309);
             EdadTextBox.Name = "EdadTextBox";
             EdadTextBox.Size = new Size(360, 23);
             EdadTextBox.TabIndex = 5;
@@ -97,7 +98,7 @@ namespace dokky_2
             // Registrar
             // 
             Registrar.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Registrar.Location = new Point(50, 350);
+            Registrar.Location = new Point(122, 431);
             Registrar.Name = "Registrar";
             Registrar.Size = new Size(208, 60);
             Registrar.TabIndex = 6;
@@ -108,7 +109,8 @@ namespace dokky_2
             // volver
             // 
             volver.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            volver.Location = new Point(488, 350);
+            volver.ForeColor = SystemColors.ActiveCaptionText;
+            volver.Location = new Point(460, 431);
             volver.Name = "volver";
             volver.Size = new Size(188, 60);
             volver.TabIndex = 7;
@@ -125,7 +127,7 @@ namespace dokky_2
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(31, 64);
+            label1.Location = new Point(285, 64);
             label1.Name = "label1";
             label1.Size = new Size(185, 25);
             label1.TabIndex = 9;
@@ -135,7 +137,7 @@ namespace dokky_2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(89, 106);
+            label2.Location = new Point(324, 119);
             label2.Name = "label2";
             label2.Size = new Size(113, 25);
             label2.TabIndex = 10;
@@ -145,7 +147,7 @@ namespace dokky_2
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(38, 151);
+            label3.Location = new Point(292, 173);
             label3.Name = "label3";
             label3.Size = new Size(178, 25);
             label3.TabIndex = 11;
@@ -155,7 +157,7 @@ namespace dokky_2
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(31, 191);
+            label4.Location = new Point(292, 227);
             label4.Name = "label4";
             label4.Size = new Size(193, 25);
             label4.TabIndex = 12;
@@ -165,7 +167,7 @@ namespace dokky_2
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(146, 236);
+            label5.Location = new Point(350, 281);
             label5.Name = "label5";
             label5.Size = new Size(56, 25);
             label5.TabIndex = 13;
@@ -175,7 +177,7 @@ namespace dokky_2
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(50, 280);
+            label6.Location = new Point(292, 335);
             label6.Name = "label6";
             label6.Size = new Size(178, 25);
             label6.TabIndex = 14;
@@ -185,7 +187,7 @@ namespace dokky_2
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(276, 9);
+            label7.Location = new Point(262, 9);
             label7.Name = "label7";
             label7.Size = new Size(241, 32);
             label7.TabIndex = 15;
@@ -195,7 +197,8 @@ namespace dokky_2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientActiveCaption;
+            ClientSize = new Size(746, 520);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -211,8 +214,10 @@ namespace dokky_2
             Controls.Add(GmailTextBox);
             Controls.Add(ContraseñaTextBox);
             Controls.Add(nombreTextBox);
+            ForeColor = SystemColors.ActiveCaptionText;
             Name = "Registre";
             Text = "registre";
+            Load += Registre_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();

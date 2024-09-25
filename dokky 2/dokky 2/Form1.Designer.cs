@@ -108,6 +108,7 @@ namespace dokky_2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlDark;
             ClientSize = new Size(870, 331);
             Controls.Add(button1);
             Controls.Add(Registrarse);
@@ -118,6 +119,7 @@ namespace dokky_2
             Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4);
             Name = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
