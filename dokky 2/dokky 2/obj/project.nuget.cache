@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xWpVpNfExya6THWg9ay/9TCeFhmMArSneMjMR9Se1ZPHkSCqsyTliohSwijBS8DOd1CzPTOd1qA7wL6QpXBKXQ==",
+  "dgSpecHash": "Sfk/LubwV6PQEzBIxYkWWTzrRfHq+WBRvvM6yqLiP436hLjCXgXMq0ReBbS4LlKXP5tGRoo6KLn1CLXrEItfoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\Nueva carpeta\\dokky 2\\dokky 2\\dokky 2.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\dokky 2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\crc32.net\\1.2.0\\crc32.net.1.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\jose-jwt\\3.1.1\\jose-jwt.3.1.1.nupkg.sha512",
