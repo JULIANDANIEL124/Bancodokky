@@ -13,22 +13,32 @@ namespace dokky_2
         // Evento del botón "Registrarse"
         private void Registrarse_Click(object sender, EventArgs e)
         {
-            Registre registroForm = new Registre();
-            registroForm.Show();
+            // Ocultar Form1 antes de abrir el registro
+            this.Hide();
 
+            // Crear el formulario de registro
+            Registre registroForm = new Registre();
+
+            // Cuando se cierra el formulario de registro, vuelve a mostrar Form1
+            registroForm.FormClosed += (s, args) => this.Show();
+
+            // Mostrar el formulario de registro
+            registroForm.Show();
         }
 
         // Evento del botón "Iniciar Sesión"
         private void iniciarsesion_Click(object sender, EventArgs e)
         {
-            // Aquí se crea una instancia del formulario de inicio de sesión
             Iniciarsesion iniciarSesionForm = new Iniciarsesion();
-            iniciarSesionForm.Show();
+            this.Hide(); // Oculta el formulario principal
+            iniciarSesionForm.ShowDialog(); // Muestra el formulario de inicio de sesión
+            this.Show(); // Muestra el formulario principal de nuevo después de cerrar el inicio de sesión
         }
-        //Cierra el programa
+
+        // Cierra el programa
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close(); // Cierra el formulario de registro
+            this.Close(); // Cierra el programa completamente
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -37,3 +47,4 @@ namespace dokky_2
         }
     }
 }
+

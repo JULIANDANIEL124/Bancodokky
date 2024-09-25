@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|c:\\users\\pc\\desktop\\syo\\bancodokky\\dokky 2\\dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|c:\\users\\pc\\desktop\\syo\\bancodokky\\dokky 2\\dokky 2\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\registre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\registre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|c:\\users\\pc\\desktop\\syo\\bancodokky\\dokky 2\\dokky 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|c:\\users\\pc\\desktop\\syo\\bancodokky\\dokky 2\\dokky 2\\registre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\registre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\iniciarsesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\cuenta.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF3AB4BB-9F08-46D1-9F4F-5234B320D07D}|dokky 2\\dokky 2.csproj|solutionrelative:dokky 2\\cuenta.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,73 +42,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IniciarSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs",
-              "RelativeDocumentMoniker": "dokky 2\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "dokky 2\\IniciarSesion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T03:16:20Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cuenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.cs",
-              "RelativeDocumentMoniker": "dokky 2\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "dokky 2\\Cuenta.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T03:15:53.025Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Form1.cs",
               "RelativeDocumentMoniker": "dokky 2\\Form1.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Form1.cs",
               "RelativeToolTip": "dokky 2\\Form1.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAArwB4AAAA9AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAnwCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T03:14:48.233Z",
+              "WhenOpened": "2024-09-25T06:25:51.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "registre.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\registre.cs",
-              "RelativeDocumentMoniker": "dokky 2\\registre.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\registre.cs",
-              "RelativeToolTip": "dokky 2\\registre.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAD4v30AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "IniciarSesion.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs",
+              "RelativeDocumentMoniker": "dokky 2\\IniciarSesion.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs",
+              "RelativeToolTip": "dokky 2\\IniciarSesion.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIA8wBsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T19:43:39.749Z",
+              "WhenOpened": "2024-09-24T18:47:02.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.cs",
+              "RelativeDocumentMoniker": "dokky 2\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.cs",
+              "RelativeToolTip": "dokky 2\\Cuenta.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:06:07.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "registre.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\registre.cs",
               "RelativeDocumentMoniker": "dokky 2\\registre.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\registre.cs [Dise\u00F1o]",
               "RelativeToolTip": "dokky 2\\registre.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T19:43:37.48Z",
+              "WhenOpened": "2024-09-25T06:04:33.917Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Cuenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.cs",
+              "RelativeDocumentMoniker": "dokky 2\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "dokky 2\\Cuenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:58:34.53Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IniciarSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs",
+              "RelativeDocumentMoniker": "dokky 2\\IniciarSesion.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "dokky 2\\IniciarSesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:56:39.283Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Form1.cs",
               "RelativeDocumentMoniker": "dokky 2\\Form1.cs",
@@ -116,15 +133,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IniciarSesion.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs",
-              "RelativeDocumentMoniker": "dokky 2\\IniciarSesion.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\IniciarSesion.cs",
-              "RelativeToolTip": "dokky 2\\IniciarSesion.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowBcAAABJAAAA",
+              "DocumentIndex": 7,
+              "Title": "Cuenta.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.Designer.cs",
+              "RelativeDocumentMoniker": "dokky 2\\Cuenta.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\SYO\\Bancodokky\\dokky 2\\dokky 2\\Cuenta.Designer.cs",
+              "RelativeToolTip": "dokky 2\\Cuenta.Designer.cs",
+              "ViewState": "AQIAAOgAAAAAAAAAAAAYwAEBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:47:02.858Z",
+              "WhenOpened": "2024-09-25T06:06:19.856Z",
               "EditorCaption": ""
             }
           ]

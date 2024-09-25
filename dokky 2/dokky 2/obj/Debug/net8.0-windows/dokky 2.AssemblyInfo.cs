@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dokky 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b25cee740127d160c5a1bd845e280ff0673703d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9248cb0d23c25bdfbde6194f8a7f525353b9b94")]
 [assembly: System.Reflection.AssemblyProductAttribute("dokky 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dokky 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

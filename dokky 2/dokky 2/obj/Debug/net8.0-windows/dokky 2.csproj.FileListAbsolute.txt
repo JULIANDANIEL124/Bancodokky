@@ -133,3 +133,4 @@ C:\Users\PC\Desktop\SYO\Bancodokky\dokky 2\dokky 2\obj\Debug\net8.0-windows\refi
 C:\Users\PC\Desktop\SYO\Bancodokky\dokky 2\dokky 2\obj\Debug\net8.0-windows\dokky 2.pdb
 C:\Users\PC\Desktop\SYO\Bancodokky\dokky 2\dokky 2\obj\Debug\net8.0-windows\dokky 2.genruntimeconfig.cache
 C:\Users\PC\Desktop\SYO\Bancodokky\dokky 2\dokky 2\obj\Debug\net8.0-windows\ref\dokky 2.dll
+C:\Users\PC\Desktop\SYO\Bancodokky\dokky 2\dokky 2\obj\Debug\net8.0-windows\dokky_2.Properties.Resources.resources

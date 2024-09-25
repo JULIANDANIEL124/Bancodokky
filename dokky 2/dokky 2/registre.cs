@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace dokky_2
 {
     public partial class Registre : Form
     {
-        // Lista estática para almacenar usuarios registrados
-        public static List<Usuario> usuariosRegistrados = new List<Usuario>();
 
+        public static List<Usuario> usuariosRegistrados = new List<Usuario>();
         public Registre()
         {
             InitializeComponent();
@@ -24,16 +22,12 @@ namespace dokky_2
             string correo = GmailTextBox.Text;
             DateTime fechaNacimiento = dateTimePicker1.Value;
             string lugar = LugarTextBox.Text;
-            int edad;
-
-            // Calcular la edad
-            edad = CalcularEdad(fechaNacimiento);
 
             // Validar campos
             if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(contraseña) ||
-                string.IsNullOrWhiteSpace(correo) || string.IsNullOrWhiteSpace(lugar) || edad <= 0)
+                string.IsNullOrWhiteSpace(correo) || string.IsNullOrWhiteSpace(lugar))
             {
-                MessageBox.Show("Por favor, rellene todos los campos correctamente.");
+                MessageBox.Show("Por favor, rellene todos los campos.");
                 return;
             }
 
@@ -58,9 +52,13 @@ namespace dokky_2
             this.Close(); // Cierra el formulario después de un registro exitoso
         }
 
+        private void volver_Click(object sender, EventArgs e)
+        {
+            this.Close(); // Cierra el formulario actual
+        }
+
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            // Actualizar el TextBox de Edad cada vez que cambia la fecha
             int edad = CalcularEdad(dateTimePicker1.Value);
             EdadTextBox.Text = edad.ToString();
         }
@@ -70,7 +68,6 @@ namespace dokky_2
             DateTime hoy = DateTime.Today;
             int edad = hoy.Year - fechaNacimiento.Year;
 
-            // Resta un año si el cumpleaños no ha ocurrido aún este año
             if (fechaNacimiento > hoy.AddYears(-edad)) edad--;
 
             return edad;
@@ -78,50 +75,21 @@ namespace dokky_2
 
         private bool ValidarContraseña(string contraseña)
         {
-            // Verificar que la contraseña tenga al menos 6 caracteres
             if (contraseña.Length < 6) return false;
 
             bool tieneLetra = false;
             bool tieneNumero = false;
 
-            // Recorrer cada carácter en la contraseña para validar
             foreach (char c in contraseña)
             {
-                if (char.IsLetter(c))
-                {
-                    tieneLetra = true;
-                }
-                else if (char.IsDigit(c))
-                {
-                    tieneNumero = true;
-                }
+                if (char.IsLetter(c)) tieneLetra = true;
+                if (char.IsDigit(c)) tieneNumero = true;
             }
 
-            // La contraseña es válida si contiene al menos una letra y un número
             return tieneLetra && tieneNumero;
         }
 
-        private void volver_Click(object sender, EventArgs e)
-        {
-            // Cerrar el formulario actual de la cuenta
-            this.Close();
-
-            // Abrir el formulario principal (Form1)
-            Form1 menuPrincipal = new Form1();
-            menuPrincipal.Show();
-        }
-
-        private void GmailTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LugarTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Registre_Load(object sender, EventArgs e)
+        private void ContraseñaTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }

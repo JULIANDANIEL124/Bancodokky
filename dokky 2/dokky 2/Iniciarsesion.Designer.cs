@@ -114,16 +114,8 @@ namespace dokky_2
             PerformLayout();
         }
 
-        private void volver_Click(object sender, EventArgs e)
-        {
-            // Cerrar el formulario actual de la cuenta
-            this.Close();
-
-            // Abrir el formulario principal (Form1)
-            Form1 menuPrincipal = new Form1();
-            menuPrincipal.Show();
-        }
-
+      
+     
         private void ContraseñatextBox_TextChanged(object sender, EventArgs e)
         {
         }

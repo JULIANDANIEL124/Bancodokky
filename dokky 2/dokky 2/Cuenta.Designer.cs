@@ -1,4 +1,5 @@
-﻿namespace dokky_2
+﻿
+namespace dokky_2
 {
     partial class CuentaForm
     {
@@ -229,6 +230,32 @@
             Name = "CuentaForm";
             ResumeLayout(false);
             PerformLayout();
+        }
+
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void saldoLabel_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void nombreLabel_Click(object sender, EventArgs e)
+        {
+        
         }
 
         #endregion

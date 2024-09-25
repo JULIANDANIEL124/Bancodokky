@@ -56,6 +56,7 @@ namespace dokky_2
             nombreTextBox.Name = "nombreTextBox";
             nombreTextBox.Size = new Size(360, 23);
             nombreTextBox.TabIndex = 0;
+            nombreTextBox.TextChanged += nombreTextBox_TextChanged;
             // 
             // ContraseñaTextBox
             // 
@@ -63,6 +64,7 @@ namespace dokky_2
             ContraseñaTextBox.Name = "ContraseñaTextBox";
             ContraseñaTextBox.Size = new Size(360, 23);
             ContraseñaTextBox.TabIndex = 1;
+            ContraseñaTextBox.TextChanged += ContraseñaTextBox_TextChanged;
             // 
             // GmailTextBox
             // 
@@ -221,6 +223,26 @@ namespace dokky_2
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void Registre_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void LugarTextBox_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void GmailTextBox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void nombreTextBox_TextChanged(object sender, EventArgs e)
+        {
+       
         }
 
 
