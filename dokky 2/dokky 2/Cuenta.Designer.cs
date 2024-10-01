@@ -29,6 +29,7 @@ namespace dokky_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CuentaForm));
             nombreLabel = new Label();
             saldoLabel = new Label();
             label1 = new Label();
@@ -50,6 +51,7 @@ namespace dokky_2
             // nombreLabel
             // 
             nombreLabel.AutoSize = true;
+            nombreLabel.BackColor = SystemColors.Control;
             nombreLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             nombreLabel.Location = new Point(12, 9);
             nombreLabel.Name = "nombreLabel";
@@ -61,6 +63,7 @@ namespace dokky_2
             // saldoLabel
             // 
             saldoLabel.AutoSize = true;
+            saldoLabel.BackColor = SystemColors.Control;
             saldoLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             saldoLabel.Location = new Point(240, 27);
             saldoLabel.Name = "saldoLabel";
@@ -72,6 +75,7 @@ namespace dokky_2
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.Control;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(197, 27);
             label1.Name = "label1";
@@ -94,6 +98,7 @@ namespace dokky_2
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.Control;
             label2.Location = new Point(192, 135);
             label2.Name = "label2";
             label2.Size = new Size(55, 30);
@@ -134,6 +139,7 @@ namespace dokky_2
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = SystemColors.Control;
             label3.Location = new Point(291, 138);
             label3.Name = "label3";
             label3.Size = new Size(52, 30);
@@ -143,6 +149,7 @@ namespace dokky_2
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = SystemColors.Control;
             label4.Location = new Point(379, 138);
             label4.Name = "label4";
             label4.Size = new Size(64, 30);
@@ -152,6 +159,7 @@ namespace dokky_2
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = SystemColors.Control;
             label5.Location = new Point(197, 232);
             label5.Name = "label5";
             label5.Size = new Size(49, 30);
@@ -181,6 +189,7 @@ namespace dokky_2
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = SystemColors.Control;
             label6.Location = new Point(291, 232);
             label6.Name = "label6";
             label6.Size = new Size(55, 30);
@@ -190,6 +199,7 @@ namespace dokky_2
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = SystemColors.Control;
             label7.Location = new Point(379, 232);
             label7.Name = "label7";
             label7.Size = new Size(48, 30);
@@ -198,18 +208,21 @@ namespace dokky_2
             // 
             // Salir
             // 
+            Salir.BackColor = SystemColors.Control;
             Salir.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Salir.Location = new Point(12, 268);
             Salir.Name = "Salir";
             Salir.Size = new Size(82, 45);
             Salir.TabIndex = 15;
             Salir.Text = "Salir de \r\nla cuenta";
-            Salir.UseVisualStyleBackColor = true;
+            Salir.UseVisualStyleBackColor = false;
             Salir.Click += Salir_Click;
             // 
             // CuentaForm
             // 
             BackColor = SystemColors.GradientInactiveCaption;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(474, 325);
             Controls.Add(Salir);
             Controls.Add(label7);
@@ -231,7 +244,6 @@ namespace dokky_2
             ResumeLayout(false);
             PerformLayout();
         }
-
 
         private void button3_Click(object sender, EventArgs e)
         {

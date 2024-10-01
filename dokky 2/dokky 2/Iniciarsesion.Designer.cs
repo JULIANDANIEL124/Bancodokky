@@ -30,6 +30,7 @@ namespace dokky_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Iniciarsesion));
             usuariotextBox = new TextBox();
             label1 = new Label();
             label2 = new Label();
@@ -49,6 +50,7 @@ namespace dokky_2
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveBorder;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(37, 50);
             label1.Name = "label1";
@@ -59,6 +61,7 @@ namespace dokky_2
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.ActiveBorder;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(37, 110);
             label2.Name = "label2";
@@ -77,7 +80,7 @@ namespace dokky_2
             // inisiarsecion
             // 
             inisiarsecion.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            inisiarsecion.Location = new Point(26, 187);
+            inisiarsecion.Location = new Point(48, 187);
             inisiarsecion.Name = "inisiarsecion";
             inisiarsecion.Size = new Size(136, 59);
             inisiarsecion.TabIndex = 4;
@@ -101,7 +104,9 @@ namespace dokky_2
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(429, 316);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(425, 307);
             Controls.Add(volver);
             Controls.Add(inisiarsecion);
             Controls.Add(ContraseñatextBox);
@@ -109,13 +114,11 @@ namespace dokky_2
             Controls.Add(label1);
             Controls.Add(usuariotextBox);
             Name = "Iniciarsesion";
-            Text = "Iniciarsesion";
+            Text = "☻";
             ResumeLayout(false);
             PerformLayout();
         }
 
-      
-     
         private void ContraseñatextBox_TextChanged(object sender, EventArgs e)
         {
         }

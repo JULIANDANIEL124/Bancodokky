@@ -29,6 +29,7 @@ namespace dokky_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             iniciarsesion = new Button();
@@ -40,8 +41,9 @@ namespace dokky_2
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ControlLight;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(269, 32);
+            label1.Location = new Point(229, 31);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(325, 32);
@@ -51,18 +53,19 @@ namespace dokky_2
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.ControlLight;
             label2.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(322, 160);
+            label2.Location = new Point(324, 254);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(322, 100);
+            label2.Size = new Size(322, 50);
             label2.TabIndex = 1;
-            label2.Text = "Esta opcion sirve mas que nada si\r\n ya te registrate anterior mente.\r\n\r\n\r\n";
+            label2.Text = "Esta opcion sirve mas que nada si\r\n ya te registrate anterior mente.";
             // 
             // iniciarsesion
             // 
             iniciarsesion.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            iniciarsesion.Location = new Point(363, 245);
+            iniciarsesion.Location = new Point(347, 332);
             iniciarsesion.Margin = new Padding(4);
             iniciarsesion.Name = "iniciarsesion";
             iniciarsesion.Size = new Size(176, 70);
@@ -74,8 +77,9 @@ namespace dokky_2
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = SystemColors.ControlLightLight;
             label3.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(-1, 160);
+            label3.Location = new Point(1, 254);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(315, 50);
@@ -85,7 +89,7 @@ namespace dokky_2
             // Registrarse
             // 
             Registrarse.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Registrarse.Location = new Point(34, 248);
+            Registrarse.Location = new Point(38, 332);
             Registrarse.Name = "Registrarse";
             Registrarse.Size = new Size(179, 67);
             Registrarse.TabIndex = 4;
@@ -96,7 +100,7 @@ namespace dokky_2
             // button1
             // 
             button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(651, 252);
+            button1.Location = new Point(600, 334);
             button1.Name = "button1";
             button1.Size = new Size(176, 67);
             button1.TabIndex = 5;
@@ -109,7 +113,9 @@ namespace dokky_2
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDark;
-            ClientSize = new Size(870, 331);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(800, 439);
             Controls.Add(button1);
             Controls.Add(Registrarse);
             Controls.Add(label3);

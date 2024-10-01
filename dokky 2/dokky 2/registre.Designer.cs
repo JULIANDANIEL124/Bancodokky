@@ -30,6 +30,7 @@ namespace dokky_2
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registre));
             nombreTextBox = new TextBox();
             ContraseñaTextBox = new TextBox();
             GmailTextBox = new TextBox();
@@ -84,6 +85,7 @@ namespace dokky_2
             // 
             // LugarTextBox
             // 
+            LugarTextBox.BackColor = SystemColors.Window;
             LugarTextBox.Location = new Point(203, 363);
             LugarTextBox.Name = "LugarTextBox";
             LugarTextBox.Size = new Size(360, 23);
@@ -99,17 +101,19 @@ namespace dokky_2
             // 
             // Registrar
             // 
+            Registrar.BackColor = SystemColors.AppWorkspace;
             Registrar.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Registrar.Location = new Point(122, 431);
             Registrar.Name = "Registrar";
             Registrar.Size = new Size(208, 60);
             Registrar.TabIndex = 6;
             Registrar.Text = "Registrar";
-            Registrar.UseVisualStyleBackColor = true;
+            Registrar.UseVisualStyleBackColor = false;
             Registrar.Click += Registrar_Click;
             // 
             // volver
             // 
+            volver.BackColor = SystemColors.AppWorkspace;
             volver.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             volver.ForeColor = SystemColors.ActiveCaptionText;
             volver.Location = new Point(460, 431);
@@ -117,7 +121,7 @@ namespace dokky_2
             volver.Size = new Size(188, 60);
             volver.TabIndex = 7;
             volver.Text = "Volver";
-            volver.UseVisualStyleBackColor = true;
+            volver.UseVisualStyleBackColor = false;
             volver.Click += volver_Click;
             // 
             // contextMenuStrip1
@@ -128,9 +132,12 @@ namespace dokky_2
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Gray;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
             label1.Location = new Point(285, 64);
             label1.Name = "label1";
+            label1.RightToLeft = RightToLeft.No;
             label1.Size = new Size(185, 25);
             label1.TabIndex = 9;
             label1.Text = "Nombre de usuario";
@@ -138,6 +145,7 @@ namespace dokky_2
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.ControlDark;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(324, 119);
             label2.Name = "label2";
@@ -148,6 +156,7 @@ namespace dokky_2
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = SystemColors.ButtonShadow;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(292, 173);
             label3.Name = "label3";
@@ -158,6 +167,7 @@ namespace dokky_2
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = SystemColors.ControlDark;
             label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(292, 227);
             label4.Name = "label4";
@@ -168,6 +178,7 @@ namespace dokky_2
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = SystemColors.ButtonShadow;
             label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(350, 281);
             label5.Name = "label5";
@@ -178,6 +189,7 @@ namespace dokky_2
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = SystemColors.ControlDark;
             label6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(292, 335);
             label6.Name = "label6";
@@ -188,6 +200,7 @@ namespace dokky_2
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = SystemColors.ButtonShadow;
             label7.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.Location = new Point(262, 9);
             label7.Name = "label7";
@@ -200,6 +213,8 @@ namespace dokky_2
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(746, 520);
             Controls.Add(label7);
             Controls.Add(label6);
