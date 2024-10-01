@@ -55,7 +55,7 @@ namespace dokky_2
             label2.AutoSize = true;
             label2.BackColor = SystemColors.ControlLight;
             label2.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(324, 254);
+            label2.Location = new Point(336, 247);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(322, 50);
@@ -65,7 +65,7 @@ namespace dokky_2
             // iniciarsesion
             // 
             iniciarsesion.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            iniciarsesion.Location = new Point(347, 332);
+            iniciarsesion.Location = new Point(347, 314);
             iniciarsesion.Margin = new Padding(4);
             iniciarsesion.Name = "iniciarsesion";
             iniciarsesion.Size = new Size(176, 70);
@@ -79,7 +79,7 @@ namespace dokky_2
             label3.AutoSize = true;
             label3.BackColor = SystemColors.ControlLightLight;
             label3.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(1, 254);
+            label3.Location = new Point(-4, 247);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(315, 50);
@@ -89,7 +89,7 @@ namespace dokky_2
             // Registrarse
             // 
             Registrarse.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Registrarse.Location = new Point(38, 332);
+            Registrarse.Location = new Point(67, 314);
             Registrarse.Name = "Registrarse";
             Registrarse.Size = new Size(179, 67);
             Registrarse.TabIndex = 4;
@@ -100,7 +100,7 @@ namespace dokky_2
             // button1
             // 
             button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(600, 334);
+            button1.Location = new Point(612, 316);
             button1.Name = "button1";
             button1.Size = new Size(176, 67);
             button1.TabIndex = 5;
